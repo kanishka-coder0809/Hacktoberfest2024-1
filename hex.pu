@@ -1,0 +1,14 @@
+import math
+
+# Function to calculate the area of a hexagon
+def hexagon_area(side_length):
+    return (3 * math.sqrt(3) / 2) * side_length ** 2
+
+# Input from the user
+side = float(input("Enter the length of a side of the hexagon: "))
+
+# Calculate the area
+area = hexagon_area(side)
+
+# Display the result
+print(f"The area of the hexagon with side length {side} is {area:.2f}")
